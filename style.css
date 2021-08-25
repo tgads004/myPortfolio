@@ -191,27 +191,29 @@ border-radius: 50%;
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.main-btn-gridItem {
+#myResume-gridItem {
   position: relative;
   margin: 0px 0px 38px calc((100% - 980px) * 0.5);
   left: 473px;
   grid-area: 2 / 1 / 3 / 2;
   justify-self: start;
   align-self: start;
-  width: 130px;
-  height: 130px;
-  font-family: "Open Sans", "sans-serif";
+  /* width: 130px;
+  height: 130px; */
+  font-family: "Open Sans", "sans-serif";  
 }
 .myResume-flexContainer {
   text-align: initial;
   display: flex;
   align-items: center;
   box-sizing: border-box;
-  width: max-content;
+  /* width: max-content; */
   justify-content: center;
   min-width: 100%;
+  width: 130px;
+  height: 130px;  
 }
-.main-btn-gridItem .myResume-flexContainer {
+/* .main-btn-gridItem .myResume-flexContainer { */
   /* position: absolute;
 top: 0;
 right: 0;
@@ -220,17 +222,17 @@ left: 0;
 background-color: crimson;
 border-radius: 50%; */
 
-  position: absolute;
+  /* position: absolute;
   margin: 0px 0px 38px calc((100% - 980px) * 0.5);
   left: 430px;
   grid-area: 2 / 1 / 3 / 2;
   justify-self: start;
-  align-self: start;
-  background-color: crimson;
-  border-radius: 50%;
-  width: 130px;
-  height: 130px;
-}
+  align-self: start; */
+  /* background-color: crimson;
+  border-radius: 50%; */
+  /* width: 130px;
+  height: 130px; */
+/* } */
 .main-btn-gridItem a {
   text-decoration: none;
   color: aliceblue;
@@ -238,17 +240,17 @@ border-radius: 50%; */
   text-transform: uppercase;
   /* border-radius: 50%; */
 }
-.main-btn-gridItem .myWork-flexContainer {
-  position: absolute;
+#myWork-gridItem {
+  position: relative;
   margin: 0px 0px 38px calc((100% - 980px) * 0.5);
-  left: 580px;
+  left: 626px;
   grid-area: 2 / 1 / 3 / 2;
   justify-self: start;
   align-self: start;
-  background-color: crimson;
-  border-radius: 50%;
-  width: 130px;
-  height: 130px;
+  /* background-color: crimson; */
+  /* border-radius: 50%; */
+  /* width: 130px;
+  height: 130px; */
 }
 .myWork-flexContainer {
   text-align: initial;
@@ -258,27 +260,35 @@ border-radius: 50%; */
   width: max-content;
   justify-content: center;
   min-width: 100%;
+  width: 130px;
+  height: 130px;
 }
-.main-btn-gridItem .mySkills-flexContainer {
-  position: absolute;
-  margin: 0px 0px 38px calc((100% - 980px) * 0.5);
-  left: 730px;
+.main-btn-gridItem {
+  background-color: crimson;
+  border-radius: 50%;
+}
+#mySkills-gridItem {
+  position: relative;
+  margin: 3px 0px 38px calc((100% - 980px) * 0.5);
+  left: 779px;
   grid-area: 2 / 1 / 3 / 2;
   justify-self: start;
   align-self: start;
-  background-color: crimson;
-  border-radius: 50%;
-  width: 130px;
-  height: 130px;
+  /* background-color: crimson; */
+  /* border-radius: 50%; */
+  /* width: 130px;
+  height: 130px; */
 }
 .mySkills-flexContainer {
   text-align: initial;
   display: flex;
   align-items: center;
   box-sizing: border-box;
-  width: max-content;
+  /* width: max-content; */
   justify-content: center;
   min-width: 100%;
+  width: 130px;
+  height: 130px;
 }
 .main-intro-gridItem {
   position: relative;
